@@ -4,13 +4,12 @@
 
 int main()
 {
-    int string;
-    char *buffer;
-    size_t *n = 0;
+    char *string;
 
-    string = _getline(&buffer, n, stdin);
 
-    printf("%d", string);
+    string = get_input();
+
+    printf("%s", string);
     /*switch(s)
     {
     case '+':

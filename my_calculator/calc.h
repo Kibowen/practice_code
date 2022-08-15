@@ -15,5 +15,6 @@ void minus(int a, int b);
 void dive(int a, int b);
 void times(int a, int b);
 int _getline(char **lineptr, size_t *n, FILE *fp);
+char *get_input();
 
 #endif

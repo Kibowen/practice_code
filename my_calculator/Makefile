@@ -1,9 +1,9 @@
 cc=gcc
 Cflags= -Wall -Wextra -Werror -pedantic
 Cfiles= calc.c operations.c 
-Cfiles2= advcalc.c _getline.c
-Objs= calc.o operations.o
-Objs2= advcalc.o _getline.o
+Cfiles2= advcalc.c _getline.c read_input.c
+Objs= calc.o operations.o 
+Objs2= advcalc.o _getline.o read_input.o
 
 
 sub1: advcalc.exe
