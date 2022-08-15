@@ -10,6 +10,7 @@ int main()
     string = get_input();
 
     printf("%s", string);
+    
     /*switch(s)
     {
     case '+':
