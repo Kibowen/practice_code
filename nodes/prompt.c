@@ -6,7 +6,7 @@ void node_prompt(struct node *head)
     int i;
 	int a;
 
-	printf("value: ");
+	printf("type here: ");
 	scanf("%d", &a);
 	printf("type position:\n1-beginning\n2-end\n:");
 	scanf("%d", &i);

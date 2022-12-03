@@ -19,11 +19,11 @@ int main ()
 	add_at_end(head, 200);
 	add_at_end(head, 20);
 	add_at_end(head, 40);
-	add_at_end(head, 200);
+	add_at_end(head, 200);*/
 
 	
 	head = add_beg(head, 3);
-	head = add_beg(head, 12);*/
+	head = add_beg(head, 12);
 	
 	print_data(head);
 	return 0;
