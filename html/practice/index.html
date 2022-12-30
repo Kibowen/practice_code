@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="trevor">
+        <meta name="i am learning how create a website using html">
+        <title>trevs web</title>
+        <link rel="icon" href="icons8-html-5-48.png" type="image/x-icon"> 
+        <link rel="stylesheet" href="main.css" type="text/css">
+    </head>
+    <body>
+
+        <header>
+            <h2>My Goals for the Year</h2>
+        
+            <nav aria-label="primary-navigation">
+                <ul>
+                    <li>
+                        <a href="#html">Learning HTML</a>
+                    </li>
+                    <li>
+                        <a href="#vacation">Planning a Vacation</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">contact me</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+
+        <h1>hello world</h1>
+
+        <hr>
+
+        <h2>i am already coding with html</h2>
+        <p>this is  my first web page.</p>
+
+        <h3>my daily schedule</h3>
+        <p>let me tell you how i am learning</p>
+
+        <hr>
+
+        <h2>i am already coding with html</h2>
+        <p>this is  my first web page.</p>
+
+        <hr>
+
+        <h3>my daily schedule</h3>
+        <p>let me tell you how:</p>
+        <ol>
+            <li> i am learning </li>
+            <li> notes of the course</ol>
+        </ol>
+    </body>
+    <hr>
+    <article id="contact">
+
+        <h2>contact me</h2>
+        <p>for more info, contact me</p>
+
+        <form action="http://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>personal info</legend>
+                    <!--normal input type-->
+                <p>
+                    <label for="firstname">firstname:</label>
+                    <input type="text" name="firstname" id="firstname" placeholder="first name" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="secondName">surname:</label>
+                    <input type="text" name="firstname" id="secondName" placeholder="secondname">
+                </p>
+                <p>
+                    <label for="phonenumber">phonenumber:</label>
+                    <input type="tel" name="phonenumber" id="phonenumber" placeholder="07XXXXXXXX"
+                        pattern="[0-9]{4}[0-9]{3}[0-9]{3}" required>
+                </p>
+                <p>
+                    <label for="password">password:</label>
+                    <input type="password" name="password" id="password" placeholder="secret"> 
+                </p>
+                <!--drop down list input-->
+                <p>
+                        <label for="music">favourite music:</label>
+                        <select name="music" id="music" multiple size="3">
+                            <optgroup label="pop music">
+                            <option value="pop">pop</option>
+                            <option value="rock">rock</option>
+                            <option value="ballads">ballads</option>
+                            <option value="tecno">tecno</option>
+                            <option value="hip pop">hip pop</option>
+                            </optgroup>
+                            <option value="other">other</option>
+                        </select>
+                </p>
+                <!--pop up input-->
+                <p>
+            <label for="artists">favourite artists:</label>
+            <input type="text" name="artists" id="artists" list="artists list">
+            
+            <datalist id="artists list">
+                <option value="bille eilish"></option>
+                <option value="stromae"></option>
+                <option value="nikki minaj"></option>
+                <option value="chris kyga"></option>
+                <option value="mutoriah"></option>
+                <option value="dualipa"></option>
+                <option value="her"></option>
+            </datalist>
+                </p>
+            </fieldset>
+            <br>
+            <!--bullet selector-->
+            <fieldset>
+                <legend>what is your favourite music?</legend>
+                <p>
+                    <input type="radio" name="music" id="pop" value="pop">
+                    <label for="pop">pop</label>
+                </p>
+                <p>
+                    <input type="radio" name="music" id="rock" value="rock">
+                    <label for="rock">rock</label>
+                </p>
+                <p>
+                    <input type="radio" name="music" id="RnB" value="RnB">
+                    <label for="RnB">RnB</label>
+                </p>
+                <p>
+                    <input type="radio" name="music" id="othergenre" value="othergenre">
+                    <label for="othergenre">other</label>
+                </p>
+            </fieldset>
+            <br>
+            <!--check boxes-->
+            <fieldset>
+                <legend>which compressors do you like</legend>
+                <p>
+                    <input type="checkbox" name="compressors" id="optical" value="optical">
+                    <label for="optical">optical</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="compressors" id="RCA" value="RCA">
+                    <label for="RCA">RCA</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="compressors" id="FET" value="FET">
+                    <label for="FET">FET</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="compressors" id="Vari-mu" value="Vari-mu">
+                    <label for="Vari-mu">Vari-mu</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="compressors" id="othercompressors" value="othercompressors">
+                    <label for="othercompressors">other</label>
+                </p>
+            </fieldset>
+            <br>
+            <!--feedback text area input-->
+            <fieldset>
+                <legend>tell me what you think.</legend>
+                <label for="message">your thoughts</label>
+                <br>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="your thoughts"></textarea>
+            </fieldset>
+            <br>
+        <button type="submit">submit</button>
+        <button type="submit" formaction="http://httpbin.org/post" formmethod="post">post</button>
+        <button type="reset">reset</button>
+        
+        </form>
+
+    </article>
+</html>
+
+
