@@ -1,4 +1,8 @@
 *.exe
 .vscode
 *.o
+repositories
+pythongui.py
+
+
 
