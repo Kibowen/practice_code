@@ -1,9 +1,23 @@
+*{
+    
+}
+
 html{
     font-size: 22px;
     font-family: sans-serif;
 }
 
 body{
-    background-color: black;
-    color: whitesmoke;
+    background-color: papayawhip;
+    color: black;
+}
+
+h2{
+    font-size: large;
+    color: black;
+}
+
+
+fieldset{
+    background-color: rgba(255, 124, 124, 0.342);
 }

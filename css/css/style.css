@@ -1,0 +1,36 @@
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: papayawhip;
+}
+
+
+header{
+    border: 2px solid blue;
+    width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+    padding: 0.5em;
+    color: #000000;
+    border: 2px solid red;
+    width: 100%;
+    text-align: center;
+}
+
+h2{
+
+    border: 2px solid purple;
+    text-align: center;
+}
+
+p{
+    color: hsla(0, 37%, 42%, 0.836);
+    border: 2px solid;
+    text-align: justify;
+    font-size: 2rem;
+}
+
+

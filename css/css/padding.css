@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: papayawhip;
+}
+
+.margin1{
+    border: 2px solid red;
+    width: 800px;
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    padding: 1.5em; 
+}
+.margin2{
+    border: 10px solid red;
+    width: 400px;
+    font-size: 1.5rem;
+    margin: 1.5em 2em 3em 4em;
+    padding: 1.5em;
+}
+.margin3{
+    border: dashed red;
+    border-top: 5px dashed red;
+    border-right: 10px dotted red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+    width: 400px;
+    font-size: 1.5rem;
+    margin: 1.5em 2em 3em 4em;
+    padding: 1.5em;
+}
+.margin4{
+    border: 10px double red;
+    width: 400px;
+    font-size: 1.5rem;
+    margin: 1.5em 2em 3em 4em;
+    padding: 1.5em;
+    
+}
+.margin5{
+    border: 10px double red;
+    width: 400px;
+    font-size: 1.5rem;
+    margin: 1.5em 2em 3em 4em;
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset: -20px;
+}
+.margin6{
+    border: 10px double red;
+    width: 400px;
+    font-size: 1.5rem;
+    margin: 1.5em 2em 3em 4em;
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset: 5px;
+}
+.margin7{
+    border: 10px outset red;
+    width: 400px;
+    font-size: 1.5rem;
+    margin: 1.5em 2em 3em 4em;
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset: 5px;
+}
+
+.margin8{
+    border: 10px double hsla(0, 0%, 0%, 0.11);
+    width: 800px;
+    font-size: 1.5rem;
+    margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    padding: 1.5em; 
+}
+
+.circle{
+
+    background-color: gold;
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+}
+

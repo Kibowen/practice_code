@@ -1,0 +1,35 @@
+ol{
+    list-style-type: lower-alpha;
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    padding: 2em;
+    text-align: justify;
+    list-style-position: outside;
+    line-height: 1.6;
+    list-style: inside; 
+}
+
+ul{
+    border: 2px solid rgba(0, 0, 0, 0.185);
+    padding: 4em;
+    list-style-type: square;
+    text-align: justify;
+    list-style-position: outside;
+    line-height: 1.6;
+    list-style: inside;
+}
+
+li{
+    color:maroon;
+}
+
+ol li:nth-child(even){
+    color: blue;
+}
+
+/* ::marker{
+    color: gold;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "this is it: ";
+} */
+

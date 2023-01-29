@@ -1,0 +1,33 @@
+body{
+    padding: 10%;
+    font-size: 1rem;
+    font-family: sans-serif;
+    background: papayawhip;
+}
+
+p{
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 0.5em;
+    font-weight: 400;
+    font-style: normal;
+}
+
+input, button {
+    font: inherit;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
+}
+
+
+a:hover, a:focus{
+    color: rgba(0, 102, 255, 0.753);
+}
+
+a:active{
+    color: red;
+}
