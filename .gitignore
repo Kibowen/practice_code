@@ -3,6 +3,7 @@
 *.o
 repositories
 pythongui.py
+tutorial
 
 
 
